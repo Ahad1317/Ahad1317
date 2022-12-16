@@ -15,7 +15,7 @@
     <br>
     <li>
     <a href="https://instagram.com/itsjust_ahad" target="_blank"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
-
+  </ul>
 <br>
 <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
 
