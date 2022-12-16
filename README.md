@@ -3,8 +3,7 @@
 <h1 align="left">Hi there, This is <a href= "https://www.linkedin.com/in/abdul-a-53b146129" target="_blank" rel="noopener noreferrer">Abdul Ahad</a> <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" height="30" /></h1>
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=I+am+a+Computer+Science+Undergraduat..&hearts;++;A+Self-taught+Front-End+Web+Developer;A+Competitive+Programmer;"></a>
 </p>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<br>
 ## <b> Let's Connect..!</b><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
 <br>
 <div align='left'>
@@ -20,3 +19,4 @@
 <br>
 <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
