@@ -9,8 +9,8 @@
 <ul>
 <li>🎓 A 2nd Year CSE undergrad at SRMIST..</li>
 <li>💻 Currently mastering Front-end skills..</li>
-<li>👯 A full time competitive programmer..</li>
-<li>⭐ Learning cloud services on the go<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></li>
+<li>💬 A full time competitive programmer..</li>
+<li>⭐ Learning cloud services on the go</li>
 <li>⚡ CODE-COFFEE-LOVE REPEAT ❤️</li>
 </ul>
 <p><h1>Skills.. <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="40"></h1><p>
