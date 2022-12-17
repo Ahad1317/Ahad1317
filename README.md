@@ -54,6 +54,14 @@
   </p>
   
 <p><h1>Github Stats..!    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"></h1></p>
+<table border="0">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Ahad1317&theme=material-palenight&count_private=true&include_all_commits=true&show_icons=true&custom_title=%23%20GitHub%20Stats" /></td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahad1317&langs_count=8&theme=material-palenight&layout=compact&custom_title=%23%20Most%20Used%20Languages&show_icons=true" /></td>
+  </tr>
+</table>
 <p><h1>Let's Connect..!   <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1></p>
 <br>
 
