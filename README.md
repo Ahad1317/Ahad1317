@@ -53,6 +53,7 @@
     <img src="https://img.shields.io/badge/Adobe%20Illustrator-330000?style=flat-square&logo=adobeillustrator" alt="Adobe Illustrator" />
   </p>
   
+<p><h1>Github Stats..!    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"></h1></p>
 <p><h1>Let's Connect..!   <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1></p>
 <br>
 
