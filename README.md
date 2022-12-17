@@ -6,6 +6,7 @@
 
 <h1>About me..  <img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 40px></h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img align="right" src="https://readme-typing-svg.herokuapp.com?font=Soucre+Code+Pro&duration=1700&color=ffffff&background=000000&multiline=true&width=650&height=220&lines=while(true);..+brain.init();..+if(+world.contains(open_source));....++s+%3D+open_source.login(Ahad1317);....+s.explore();....+s.learn();....+s.contribute()" width=50%/>
 <ul>
 <li>🎓 A 2nd Year CSE undergrad at SRMIST..</li>
 <li>💻 Currently mastering Front-end skills..</li>
@@ -77,6 +78,3 @@
     <li>
     <a href="https://instagram.com/itsjust_ahad" target="_blank"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
   </ul>
-
-
-
