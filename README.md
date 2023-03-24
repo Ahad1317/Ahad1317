@@ -1,7 +1,7 @@
 <img src="./banner1.png" />
 
 <h1 align="left">Hi there, This is <a href= "https://www.linkedin.com/in/abdul-a-53b146129" target="_blank" rel="noopener noreferrer">Abdul Ahad</a> <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" height="30" /></h1>
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=I+am+a+Computer+Science+Undergraduat..&hearts;++;A+Self-taught+Front-End+Web+Developer;A+Competitive+Programmer;"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=I+am+a+Computer+Science+Undergraduat..&hearts;++;A+Self-taught+Full-Stack+Web+Developer;A+Competitive+Programmer;"></a>
 </p>
 
 <h1>About me..  <img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 40px></h1>
@@ -9,7 +9,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img align="right" src="https://readme-typing-svg.herokuapp.com?font=Soucre+Code+Pro&duration=1700&color=ffffff&background=000000&multiline=true&width=650&height=220&lines=while(true);..+brain.init();..+if(+world.contains(open_source));....++s+%3D+open_source.login(Ahad1317);....+s.explore();....+s.learn();....+s.contribute()" width=50%/>
 <ul>
 <li>🎓 A 2nd Year CSE undergrad at SRMIST..</li>
-<li>💻 Currently mastering Front-end skills..</li>
+<li>💻 Currently mastering Full stack skills..</li>
 <li>💬 A full time competitive programmer..</li>
 <li>⭐ Learning cloud services on the go</li>
 <li>⚡ CODE-COFFEE-LOVE REPEAT ❤️</li>
