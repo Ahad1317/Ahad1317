@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./image (3).png" />
 </p>
+<hr>
 <h2 align="center">
   𝐇𝐞𝐥𝐥𝐨, &lt;𝚌𝚘𝚍𝚎𝚛𝚜/&gt; !
   <a target="_blank">
