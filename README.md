@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="![image (2)](https://github.com/Ahad1317/Ahad1317/assets/96586030/e1c86167-8bfb-4e4c-b8f9-a34c5e966d41)
-" />
-
+  <img src="./image (3).png" />
 </p>
 <h2 align="center">
   𝐇𝐞𝐥𝐥𝐨, &lt;𝚌𝚘𝚍𝚎𝚛𝚜/&gt; !
