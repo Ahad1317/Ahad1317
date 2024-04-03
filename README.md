@@ -9,21 +9,8 @@
   </a>
 </h2>
 
-
 ```golang
 package main
-
-import (
-	"mySkills"
-)
-
-type Bio map[string]string
-
-func main() {
-	for k, v := range GetBio() {
-		mySkills.Printf("%+v: %+v\n", k, v)
-	}
-}
 
 func GetBio() Bio {
 	return Bio{
