@@ -8,7 +8,6 @@
     <img src="https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/Hi.gif" width="40px" />
   </a>
 </h2>
-
 ```golang
 package main
 
@@ -17,10 +16,10 @@ func GetBio() Bio {
 		"- ⚡ Quick bio:":                    "A kind of metalHead-codeloving-webPunk-melomaniac-gearAddict-amateurMusician-traveler-foodLover-gamer-coder-programmer-catLover-sportsAficionado hybrid",
 		"- 🔭 I’m currently working on":      "Strategies for improving my skills and fostering collaboration",
 		"- 🌱 I’m currently learning":        "Alexa Skills, Cloud Enviroment, SASS, Three.js, Google APIS  --- Sharpening my Front End Skills for the MERN stack (Personal goal)",
-		"- 👯 I’m looking to collaborate on": " MERN and cloud related projects",
+		"- 👯 I’m looking to collaborate on": "MERN and cloud related projects",
 		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
 		"- 💬 Ask me about":                  "Competitive Programmer, Full Stack Wed Developer and a cloud enthusiast",
-		"- 📫 How to reach me:":              "https://github.com/Ahad1317",
+		"- 📫 How to reach me:":              "@khanazan761@gmail.com",
 	}
 }
 ```
