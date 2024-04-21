@@ -15,7 +15,6 @@ package main
 func GetBio() Bio {
 	return Bio{
 		"- ⚡ Quick bio:":                    "A kind of metalHead-codeloving-webPunk-melomaniac-gearAddict-amateurMusician-traveler-foodLover-gamer-coder-programmer-catLover-sportsAficionado hybrid",
-		"- 🔭 I’m currently working on":      "Strategies for improving my skills and fostering collaboration",
 		"- 🌱 I’m currently learning":        "Alexa Skills, Cloud Enviroment, SASS, Three.js, Google APIS  --- Sharpening my Front End Skills for the MERN stack (Personal goal)",
 		"- 👯 I’m looking to collaborate on": "MERN and cloud related projects",
 		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
