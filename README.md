@@ -14,9 +14,8 @@ package main
 
 func GetBio() Bio {
 	return Bio{ 
-		"-  🌱 Currently working as an SDE Intern @Fidelity Investments",
+		"- 🌱 Currently working as an SDE Intern @Fidelity Investments",
 		"- ⚡ Quick bio:":                    "A kind of metalHead-codeloving-webPunk-melomaniac-gearAddict-amateurMusician-traveler-foodLover-gamer-coder-programmer-catLover-sportsAficionado hybrid",
-		
 		"- 👯 I’m looking to collaborate on": "Full stack and cloud related projects",
 		"- 💬 Ask me about":                  "Competitive Programmer, Full Stack Wed Developer and a cloud enthusiast",
 		"- 📫 How to reach me:":              "@khanazan761@gmail.com",
