@@ -1,0 +1,314 @@
+.header-container {
+        display: flex;
+        height: 4rem;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        max-width: 80rem;
+        margin: 0 auto;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 700;
+        font-size: 1.25rem;
+        text-decoration: none;
+        color: hsl(var(--foreground));
+      }
+
+      .logo-icon {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: currentColor;
+      }
+
+      .theme-toggle {
+        background: none;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        color: hsl(var(--foreground));
+        position: relative;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .theme-icon {
+        position: absolute;
+        width: 1.25rem;
+        height: 1.25rem;
+        transition: all 0.3s ease;
+      }
+
+      .sun-icon {
+        opacity: 1;
+      }
+
+      .moon-icon {
+        opacity: 0;
+      }
+
+      .dark .sun-icon {
+        opacity: 0;
+        transform: rotate(90deg);
+      }
+
+      .dark .moon-icon {
+        opacity: 1;
+        transform: rotate(0);
+      }
+
+      .hero {
+        padding-bottom: 2rem;
+        background-color: hsl(var(--background));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero-content {
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .hero-title {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        color: #e1e7ef;
+      }
+
+      .hero-highlight {
+        color: #64ff4c;
+      }
+      .light .hero-title {
+        color: black;
+      }
+      .line-wrapper img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .light {
+        --background: 0 0% 97%;
+        --foreground: 222 47% 11%;
+        --primary: 210 40% 98%;
+        --primary-foreground: 222.2 47.4% 1.2%;
+        --border: 214 32% 91%;
+        --highlight: 226 100% 60%;
+      }
+
+      .light body {
+        background: hsl(var(--background));
+        color: hsl(var(--foreground));
+      }
+
+      .content-box {
+        background-color: hsl(var(--border));
+        padding: 1.5rem 2rem;
+        border-radius: 0.75rem;
+        color: hsl(var(--foreground));
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        backdrop-filter: blur(10px);
+        min-height: 150px;
+        transition: all 0.3s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        border: 1px solid hsl(var(--border));
+      }
+
+      .timeline-button {
+        font-size: 1rem;
+        border: 1px solid hsl(var(--highlight));
+        background-color: transparent;
+        color: hsl(var(--highlight));
+        font-weight: 600;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+        padding: 0.75rem 1.5rem;
+      }
+
+      .timeline-button:hover {
+        background-color: hsl(var(--highlight));
+        color: white;
+        transform: translateY(-1px); /* Added slight lift effect */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow on hover */
+      }
+
+      .feature-text {
+        flex-grow: 1;
+        font-size: 1.3rem;
+        line-height: 1.5;
+        color: white;
+      }
+
+      .timeline {
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .timeline-line {
+        position: absolute;
+        left: 50%;
+        width: 6px;
+        background-color: #64ff4c;
+        transform: translateX(-50%);
+        z-index: 1;
+        height: 0;
+        transition: height 2s ease-out;
+      }
+      .timeline-item {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 60px 1fr;
+        align-items: center;
+        margin: 5rem 0;
+      }
+
+      .timeline-item.left {
+        grid-template-areas: "content circle button";
+      }
+
+      .timeline-item.right {
+        grid-template-areas: "button circle content";
+      }
+
+      .timeline-item.left .content-box {
+        grid-area: content;
+        justify-self: start;
+        text-align: justify;
+      }
+
+      .timeline-item.right .content-box {
+        grid-area: content;
+        justify-self: start;
+        text-align: justify;
+      }
+
+      .circle {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 25px;
+        height: 25px;
+        background-color: #64ff4c;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        transition: background-color 0.3s ease; /* Added transition */
+        box-shadow: 0 0 0 4px rgba(100, 255, 76, 0.2); /* Added glow effect */
+      }
+
+      .timeline-item .timeline-button {
+        grid-area: button;
+        background-color: transparent;
+        border: 1px solid #64ff4c;
+        color: #64ff4c;
+        padding: 1rem;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .timeline-item .timeline-button:hover {
+        background-color: #64ff4c;
+        color: #0d1117;
+        transform: translateY(-1px); /* Added lift effect */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow */
+      }
+
+      .light .timeline-line {
+        background-color: #221f63;
+      }
+
+      .light .circle {
+        background-color: #221f63; /* Changed to purple */
+        box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2); /* Adjusted glow color */
+      }
+      .light .timeline-button {
+        border-color: #4f46e5; /* Changed to purple */
+        color: #4f46e5;
+        background-color: transparent;
+      }
+
+      .light .timeline-button:hover {
+        background-color: #4f46e5;
+        color: white;
+      }
+      .light .content-box {
+        background-color: rgb(38, 31, 100);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        border: 1px solid #e5e7eb;
+      }
+
+      footer {
+        background-color: hsl(var(--background));
+        color: hsl(var(--foreground));
+        text-align: center;
+        padding: 1.5rem 0; /* Increased padding */
+        font-size: 0.9rem;
+        border-top: 1px solid hsl(var(--border));
+        transition: all 0.3s ease; /* Added transition */
+      }
+
+      /* For light mode (if you use a .light class on body or html) */
+      .light footer {
+        background-color: white; /* Pure white background */
+        color: #4b5563; /* Softer text color */
+        border-top: 1px solid #e5e7eb; /* Lighter border */
+        box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.05); /* Added subtle shadow */
+      }
+
+      /* Mobile responsive */
+      @media (max-width: 768px) {
+        .timeline-line {
+          left: 8px;
+        }
+
+        .timeline-item {
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 6rem 0;
+        }
+
+        .content-box {
+          width: 100%;
+        }
+
+        .timeline-button {
+          margin-top: 1rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .hero-title {
+          font-size: 4.5rem;
+        }
+
+        .header-container {
+          padding: 0 2rem;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .hero-title {
+          font-size: 5rem;
+        }
+      }
