@@ -1,0 +1,131 @@
+document.getElementById('objectName').textContent = data.object;
+        document.getElementById('centerObjectName').textContent = data.object;
+        document.getElementById('centerObjectType').textContent = 'object';
+        document.getElementById('totalRelationships').textContent = data.total_relationships;
+        
+        // Render dependencies
+        const dependenciesList = document.getElementById('dependenciesList');
+        dependenciesList.innerHTML = '';
+        document.getElementById('dependenciesCount').textContent = data.dependencies.length;
+        
+        data.dependencies.forEach(item => {
+            dependenciesList.appendChild(createRelationshipItem(item));
+        });
+        
+        // Render references
+        const referencesList = document.getElementById('referencesList');
+        referencesList.innerHTML = '';
+        document.getElementById('referencesCount').textContent = data.references.length;
+        
+        data.references.forEach(item => {
+            referencesList.appendChild(createRelationshipItem(item));
+        });
+        
+        // Render all relationships
+        const allRelationshipsList = document.getElementById('allRelationshipsList');
+        allRelationshipsList.innerHTML = '';
+        
+        data.all_relationships.forEach(item => {
+            const row = document.createElement('div');
+            row.className = 'grid-row';
+            
+            const nameCol = document.createElement('div');
+            nameCol.className = 'grid-col';
+            nameCol.textContent = item.name;
+            
+            const typeCol = document.createElement('div');
+            typeCol.className = 'grid-col';
+            const typeBadge = document.createElement('span');
+            typeBadge.className = `type-badge ${item.type}`;
+            typeBadge.textContent = item.type;
+            typeCol.appendChild(typeBadge);
+            
+            const relCol = document.createElement('div');
+            relCol.className = 'grid-col';
+            const relBadge = document.createElement('span');
+            relBadge.className = 'relationship-type';
+            relBadge.textContent = item.relationship === 'depends_on' ? 'Depends On' : 'Referenced By';
+            relBadge.style.backgroundColor = item.relationship === 'depends_on' ? '#1cc88a' : '#4e73df';
+            relCol.appendChild(relBadge);
+            
+            row.appendChild(nameCol);
+            row.appendChild(typeCol);
+            row.appendChild(relCol);
+            allRelationshipsList.appendChild(row);
+        });
+        
+        // Render chart
+        renderRelationshipChart(data);
+    }
+    
+    function createRelationshipItem(item) {
+        const div = document.createElement('div');
+        div.className = 'relationship-item';
+        
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = item.name;
+        
+        const typeBadge = document.createElement('span');
+        typeBadge.className = `type-badge ${item.type}`;
+        typeBadge.textContent = item.type;
+        
+        div.appendChild(nameSpan);
+        div.appendChild(typeBadge);
+        
+        return div;
+    }
+    
+    function renderRelationshipChart(data) {
+        const ctx = document.getElementById('relationshipChart').getContext('2d');
+        
+        // Destroy previous chart if exists
+        if (relationshipChart) {
+            relationshipChart.destroy();
+        }
+        
+        relationshipChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Dependencies', 'References'],
+                datasets: [{
+                    label: 'Relationship Count',
+                    data: [data.dependencies.length, data.references.length],
+                    backgroundColor: [
+                        '#1cc88a',
+                        '#4e73df'
+                    ],
+                    borderColor: [
+                        '#17a673',
+                        '#2e59d9'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return `${context.dataset.label}: ${context.raw}`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0
+                        }
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
+{% endblock %}
